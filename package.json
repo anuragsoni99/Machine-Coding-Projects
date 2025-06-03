@@ -1,9 +1,12 @@
 {
+  "homepage": "https://anuragsoni99.github.io/Machine-Coding-Projects",
   "name": "namaste",
   "version": "1.0.0",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./build --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
