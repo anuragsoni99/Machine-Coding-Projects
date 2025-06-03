@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "jsx": "preserve",
+    "checkJs": true,
+    "lib": ["ES2015", "DOM"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports":true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
